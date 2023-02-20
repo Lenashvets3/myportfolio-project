@@ -4,8 +4,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-    <title>City Loft - about us</title>
+    <meta
+      name="description"
+      content="Kyiv City Loft - fully equipped high class apartments ranging from 14 to 43 m2"
+    />
+    <title>About us. Kyiv City Loft - apartment in Kyiv</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -28,14 +31,43 @@
       crossorigin="anonymous"
     ></script>
     <script
-      src="https://kit.fontawesome.com/ddc3ee268a.js"
+      src="https://kit.fontawesome.com/95a2b98a19.js"
       crossorigin="anonymous"
     ></script>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.jpg"
+            class="logo"
+            alt="Kyiv City Loft Logo"
+            width="100"
+          />
+        </a>
+        <ul>
+          <li>
+            <a href="/" title="Homepage"> Home</a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Kyiv City Loft"> About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Apartaments Kyiv City Loft">
+              Apartaments</a
+            >
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Kyiv City Loft"> Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+
     <div class="content-container container">
       <div class="row">
-        <div class="col-lg-6">
+        <div class="col-6">
           <div class="content">
             <h1 class="mb-4 mt-4">Hi we are Kyiv City Loft</h1>
             <h2 class="mb-4">City Loft - your apartments in Kyiv</h2>
@@ -48,13 +80,74 @@
               rooms). Count on us to find the perfect place to call your home
               throughout your stay in the capital.
             </p>
-            <a href="" class="btn btn-branding">See apartments</a>
+            <a href="/work.html" class="btn btn-branding">See apartments</a>
           </div>
-          <div class="col-lg-6">
-            <img src="images/kyiv.jpg" class="img-fluid" alt="" />
-          </div>
+        </div>
+        <div class="col-6">
+          <img src="images/kyiv.jpg" class="img-fluid" alt="Kyiv City" />
         </div>
       </div>
     </div>
+
+    <footer>
+      <div class="contact-box d-flex justify-content-between mb-5">
+        <div>
+          <h4>Work Inquiry</h4>
+          <p class="text-muted">Let's work together</p>
+        </div>
+        <div class="button-box">
+          <a
+            href="/contact.html"
+            class="btn btn-branding"
+            title="Contact Kyiv City Loft"
+          >
+            Contact us
+          </a>
+        </div>
+      </div>
+      <div class="d-flex justify-content-center mb-4">
+        <a
+          href="mailto:city.kiyv@gmail.com"
+          class="email-link"
+          title="Email Kyiv City Loft"
+          >city.kiyv@gmail.com
+        </a>
+      </div>
+      <div class="social-links d-flex justify-content-center">
+        <a
+          href="https://www.facebook.com/CityLoftKyiv"
+          target="_blank"
+          class="facebook-link"
+          title="Facebook Profile"
+        >
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+        <a
+          href="https://www.airbnb.com/users/show/235414941"
+          target="_blank"
+          class="airbnb-link"
+          title="Airbnb Profile"
+        >
+          <i class="fa-brands fa-airbnb"></i>
+        </a>
+        <a
+          href="https://en.cityloft.com.ua/"
+          target="_blank"
+          class="globe-link"
+          title="Kyiv City Loft Site"
+        >
+          <i class="fa-solid fa-globe"></i>
+        </a>
+      </div>
+      <p class="text-center mt-5">
+        This project was coded by Olena Shvets, and it is
+        <a
+          href="https://github.com/Lenashvets3/myportfolio-project"
+          target="_blank"
+          title="GitHub Profile"
+          >open-sourced</a
+        >
+      </p>
+    </footer>
   </body>
 </html>

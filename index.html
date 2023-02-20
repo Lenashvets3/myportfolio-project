@@ -4,7 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <meta
+      name="description"
+      content="City Loft - fully equipped high class apartments ranging from 14 to 43 m2"
+    />
     <title>City Loft - your apartment in Kyiv</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -36,19 +39,28 @@
   <body>
     <div class="container">
       <nav class="d-flex justify-content-between">
-        <img src="images/logo.jpg" class="logo" alt="" width="100" />
+        <a href="/" title="Homepage">
+          <img
+            src="images/logo.jpg"
+            class="logo"
+            alt="Kyiv City Loft Logo"
+            width="100"
+          />
+        </a>
         <ul>
           <li class="active">
-            <a href="/"> Home</a>
+            <a href="/" title="Homepage"> Home</a>
           </li>
           <li>
-            <a href="/about.html"> About</a>
+            <a href="/about.html" title="About Kyiv City Loft"> About</a>
           </li>
           <li>
-            <a href="/work.html"> Apartaments</a>
+            <a href="/work.html" title="Apartaments Kyiv City Loft">
+              Apartaments</a
+            >
           </li>
           <li>
-            <a href="/contact.html"> Contact</a>
+            <a href="/contact.html" title="Contact Kyiv City Loft"> Contact</a>
           </li>
         </ul>
       </nav>
@@ -59,12 +71,17 @@
       <img
         src="images/Logo.jpg"
         class="logo"
-        alt="Logo City Loft"
+        alt="Logo Kyiv City Loft"
         width="100"
       />
       <h1>Kyiv City Loft</h1>
       <h2>Your apartments in Kyiv</h2>
-      <a href="#" class="btn btn-branding">Contact us</a>
+      <a
+        href="/contact.html"
+        class="btn btn-branding"
+        title="Contact Kyiv City Loft"
+        >Contact us</a
+      >
     </div>
 
     <h4 class="text-center m-5">Make yourself at home away from home</h4>
@@ -89,7 +106,7 @@
               structure of the building will allow our guests to plunge into the
               history of architecture of the 19th century.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -105,7 +122,7 @@
               structure of the building will allow our guests to plunge into the
               history of architecture of the 19th century.
             </p>
-            <a href="#" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
         <div class="col d-none d-lg-block">
@@ -137,7 +154,7 @@
               Khreshchatyk street, Olympic stadium and a 5-minute walk from 2
               metro stations "Palace of Sports" and "Klovska".
             </p>
-            <a href="" class="btn btn-branding-outline">Learn more</a>
+            <a href="/work.html" class="btn btn-branding-outline">Learn more</a>
           </div>
         </div>
       </div>
@@ -147,12 +164,21 @@
             <h4>Work Inquiry</h4>
             <p class="text-muted">Let's work together</p>
           </div>
-          <div>
-            <a href="" class="btn btn-branding"> Contact us </a>
+          <div class="button-box">
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Kyiv City Loft"
+            >
+              Contact us
+            </a>
           </div>
         </div>
         <div class="d-flex justify-content-center mb-4">
-          <a href="mailto:city.kiyv@gmail.com" class="email-link"
+          <a
+            href="mailto:city.kiyv@gmail.com"
+            class="email-link"
+            title="Email Kyiv City Loft"
             >city.kiyv@gmail.com
           </a>
         </div>
@@ -161,6 +187,7 @@
             href="https://www.facebook.com/CityLoftKyiv"
             target="_blank"
             class="facebook-link"
+            title="Facebook Profile"
           >
             <i class="fa-brands fa-facebook"></i>
           </a>
@@ -168,6 +195,7 @@
             href="https://www.airbnb.com/users/show/235414941"
             target="_blank"
             class="airbnb-link"
+            title="Airbnb Profile"
           >
             <i class="fa-brands fa-airbnb"></i>
           </a>
@@ -175,10 +203,20 @@
             href="https://en.cityloft.com.ua/"
             target="_blank"
             class="globe-link"
+            title="Kyiv City Loft Site"
           >
             <i class="fa-solid fa-globe"></i>
           </a>
         </div>
+        <p class="text-center mt-5">
+          This project was coded by Olena Shvets, and it is
+          <a
+            href="https://github.com/Lenashvets3/myportfolio-project"
+            target="_blank"
+            title="GitHub Profile"
+            >open-sourced</a
+          >
+        </p>
       </footer>
     </div>
   </body>
